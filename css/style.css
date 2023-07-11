@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  /* 1rem = 10px; */
+  /* font-size:10px; */
+
+  /* 10px / 16px = 0.625 = 62.5%; */
+  /* percentage of user's browser font-size setting */
+  font-size: 62.5%
+
+  /* 16 * 0625 = 10px */
+}
+body {
+  font-family: "sans-serif";
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
